@@ -732,21 +732,6 @@ li {
   overflow: hidden;
 }
 
-.bg-eerie {
-  --tw-bg-opacity: 1;
-  background-color: rgb(25 25 25 / var(--tw-bg-opacity, 1));
-}
-
-.bg-pakistan {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 60 27 / var(--tw-bg-opacity, 1));
-}
-
-.bg-timberwolf {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 209 209 / var(--tw-bg-opacity, 1));
-}
-
 .p-12 {
   padding: 3rem;
 }
@@ -797,17 +782,17 @@ li {
   line-height: 1.75rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .leading-relaxed {
   line-height: 1.625;
-}
-
-.text-eerie {
-  --tw-text-opacity: 1;
-  color: rgb(25 25 25 / var(--tw-text-opacity, 1));
 }
 
 .text-pakistan {
@@ -820,19 +805,9 @@ li {
   color: rgb(151 168 206 / var(--tw-text-opacity, 1));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
 .\*\:text-lg > * {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.\*\:text-white > * {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 768px) {
@@ -856,15 +831,25 @@ li {
   }
 }
 
-@media (orientation: portrait) {
-  .portrait\:hidden {
-    display: none;
+@media (min-width: 1536px) {
+  .\32xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .\32xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .\32xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
-@media (orientation: landscape) {
-  .landscape\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+@media (orientation: portrait) {
+  .portrait\:hidden {
+    display: none;
   }
 }
