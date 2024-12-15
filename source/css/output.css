@@ -656,10 +656,6 @@ li {
   display: flex;
 }
 
-.aspect-square {
-  aspect-ratio: 1 / 1;
-}
-
 .h-screen {
   height: 100vh;
 }
@@ -732,6 +728,14 @@ li {
   overflow: hidden;
 }
 
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+.bg-scroll {
+  background-attachment: scroll;
+}
+
 .p-12 {
   padding: 3rem;
 }
@@ -753,11 +757,6 @@ li {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -775,11 +774,6 @@ li {
 
 .text-\[550px\] {
   font-size: 550px;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-lg {
@@ -832,19 +826,14 @@ li {
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .\32xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .\32xl\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 
