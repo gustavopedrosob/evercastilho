@@ -578,6 +578,27 @@ li {
   list-style-image: url('../imgs/point.svg');
 }
 
+.color-pakistan {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 60 27 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.color-timberwolf {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 209 209 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(25 25 25 / var(--tw-text-opacity, 1));
+}
+
+.color-eerie {
+  --tw-bg-opacity: 1;
+  background-color: rgb(25 25 25 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
 .absolute {
   position: absolute;
 }

@@ -24,4 +24,16 @@
     li {
         list-style-image: url('../imgs/point.svg');
     }
+
+    .color-pakistan {
+        @apply bg-pakistan text-white
+    }
+
+    .color-timberwolf {
+        @apply bg-timberwolf text-eerie
+    }
+
+    .color-eerie {
+        @apply bg-eerie text-white
+    }
 }
