@@ -732,10 +732,6 @@ li {
   scroll-behavior: smooth;
 }
 
-.bg-scroll {
-  background-attachment: scroll;
-}
-
 .p-12 {
   padding: 3rem;
 }
@@ -840,5 +836,27 @@ li {
 @media (orientation: portrait) {
   .portrait\:hidden {
     display: none;
+  }
+
+  .portrait\:basis-3\/6 {
+    flex-basis: 50%;
+  }
+
+  .portrait\:basis-1\/2 {
+    flex-basis: 50%;
+  }
+
+  .portrait\:basis-6 {
+    flex-basis: 1.5rem;
+  }
+
+  .portrait\:basis-full {
+    flex-basis: 100%;
+  }
+}
+
+@media (orientation: landscape) {
+  .landscape\:basis-1\/2 {
+    flex-basis: 50%;
   }
 }
